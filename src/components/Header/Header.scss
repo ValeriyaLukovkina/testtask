@@ -1,0 +1,48 @@
+@use '../../styles/index.scss' as *;
+
+.header {
+  background: $color-black;
+  padding: 25px 90px;
+  color: $color-white;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &-icon {
+      width: 104px;
+      height: 35px;
+    }
+  }
+}
+
+@include respond('tablet') {
+  .header {
+    padding: 25px;
+
+    &__logo {
+      &-icon {
+        width: 72px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+@include respond('mobile') {
+  .header {
+    padding: 12px 20px;
+
+    &__navigation {
+      display: none;
+    }
+  }
+}

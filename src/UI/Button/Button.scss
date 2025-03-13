@@ -1,0 +1,50 @@
+@use '../../styles/index.scss' as *;
+
+.button {
+  height: 54px;
+  padding: 10px 40px;
+  font-size: 22px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  white-space: nowrap;
+  
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &-light {
+    border: 2px solid $color-yellow;
+    color: $color-yellow;
+    background: transparent;
+  }
+
+  &-default {
+    background-color: $color-yellow;
+    color: $color-black;
+    border: none;
+    transition: all 0.3s;
+  }
+
+  &-s {
+    height: 33px;
+    padding: 7px 40px;
+    font-size: 16px;
+  }
+
+  &-m {
+    height: 54px;
+    padding: 10px 40px;
+    font-size: 22px;
+  }
+}
+
+@include respond('mobile') {
+  .button {
+    height: 33px;
+    padding: 7px 40px;
+    font-size: 16px;
+  }
+}

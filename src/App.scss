@@ -1,0 +1,19 @@
+@use './styles/index.scss' as *;
+
+.section {
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 60px 80px;
+}
+
+@include respond('tablet') {
+  .section {
+    padding: 55px 30px;
+  }
+}
+
+@include respond('mobile') {
+  .section {
+    padding: 50px 20px;
+  }
+}

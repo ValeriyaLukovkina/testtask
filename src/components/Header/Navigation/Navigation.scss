@@ -1,0 +1,50 @@
+@use '../../../styles/index.scss' as *;
+
+.nav {
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+
+    &-link {
+      position: relative;
+      text-decoration: none;
+      color: $color-white;
+      cursor: pointer;
+
+
+      @include gradient-hover($color-white, $color-yellow, $color-pink);
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &-icon {
+      display: block;
+      width: 24px;
+      height: 20px;
+
+      mask-image: url('../../../assets/icons/basket.svg');
+
+      @include gradient-hover($color-white, $color-yellow, $color-pink);
+    }
+  }
+}
+
+@include respond("tablet") {
+  .nav {
+    &__list {
+      gap: 45px;
+    }
+  }
+}
+
+@include respond("mobile") {
+  .nav {
+    &__list {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}

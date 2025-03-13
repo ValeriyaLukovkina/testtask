@@ -1,0 +1,49 @@
+@use '../../styles/index.scss' as *;
+
+.offers {
+  margin-bottom: 60px;
+
+  &__title {
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 350px;
+
+    gap: 40px;
+  }
+}
+
+@include respond('tablet') {
+  .offers {
+    margin-bottom: 55px;
+
+    &__title {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    &__content {
+      gap: 30px;
+    }
+  }
+}
+
+@include respond('mobile') {
+  .offers {
+    margin-bottom: 50px;
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@mixin gradient-hover($color1, $color2, $color3) {
+  background: linear-gradient(90deg, $color1 50%, $color2 50%, $color3 100%);
+  background-size: 200% 100%;
+  background-position: 0% 40%;
+  transition: background-position 0.3s ease-in-out;
+
+  &:hover {
+    background-position: 100% 50%;
+  }
+}
+
+@mixin respond($size) {
+  @if $size == 'tablet' {
+    @media (max-width: 1247px) {
+      @content;
+    }
+  } @else if $size == 'mobile' {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $size == 'small-mobile' {
+    @media (max-width: 359px) {
+      @content;
+    }
+  }
+}
