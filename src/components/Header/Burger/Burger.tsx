@@ -18,7 +18,13 @@ const Burger = () => {
 
   return (
     <div className='burger'>
-      <button className={`burger__icon ${isOpen ? 'active' : ''}`} onClick={handleToggle}></button>
+      <button
+        className={`burger__icon ${isOpen ? 'active' : ''}`}
+        onClick={handleToggle}
+        aria-label={isOpen ? 'Закрыть меню' : 'Открыть меню'}
+        aria-expanded={isOpen}
+        aria-controls='burger-menu'
+      ></button>
 
       <Menu className='burger__menu' onClose={handleClose} isOpen={isOpen} />
     </div>
