@@ -14,7 +14,7 @@ const ErrorModal: FC<ErrorModalProps> = ({ onClose }) => {
       <div className='modal' role='dialog' onClick={(e) => e.stopPropagation()}>
         <h2 className='modal__title'>Oops...</h2>
         <p className='modal__message'>
-          This page is still under development. Please check back later!"
+          This page is still under development. Please check back later!
         </p>
         <Button onClick={onClose} view='default' text='Close' />
       </div>
