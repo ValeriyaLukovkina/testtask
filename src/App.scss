@@ -6,6 +6,10 @@
   padding: 60px 80px;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @include respond('tablet') {
   .section {
     padding: 55px 30px;

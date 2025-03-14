@@ -54,10 +54,6 @@
   }
 }
 
-.no-scroll {
-  overflow: hidden;
-}
-
 @include respond('mobile') {
   .burger {
     display: block;
