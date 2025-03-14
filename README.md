@@ -24,7 +24,7 @@
 
    ```sh
    git clone https://github.com/ValeriyaLukovkina/testtask.git
-   cd test-task-spa
+   cd testtask
    ```
 
 2. Установите зависимости:
