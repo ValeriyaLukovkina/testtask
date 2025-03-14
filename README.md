@@ -23,7 +23,7 @@
 1. Клонируйте репозиторий:
 
    ```sh
-   git clone https://github.com/your-username/test-task-spa.git
+   git clone https://github.com/ValeriyaLukovkina/testtask.git
    cd test-task-spa
    ```
 
