@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/testtask/static/css/main.1ccdf272.css",
+    "main.js": "/testtask/static/js/main.45283adb.js",
+    "static/media/bgc1.jpg": "/testtask/static/media/bgc1.eafa39b4f251fc691ab0.jpg",
+    "static/media/image4.jpg": "/testtask/static/media/image4.5e4327f5815442094157.jpg",
+    "static/media/image3.jpg": "/testtask/static/media/image3.c178b33a43e5fd477650.jpg",
+    "static/media/image1.jpg": "/testtask/static/media/image1.4f3761a1ec32245c3eb4.jpg",
+    "static/media/image2.jpg": "/testtask/static/media/image2.6b0d8e78c1d27d9cbe1f.jpg",
+    "static/media/bgc1.webp": "/testtask/static/media/bgc1.5b05800098fe76379593.webp",
+    "static/media/earth.png": "/testtask/static/media/earth.661f8fbf429e4bf24969.png",
+    "static/media/earth.webp": "/testtask/static/media/earth.3722e03657729e351318.webp",
+    "static/media/Lato-Bold.ttf": "/testtask/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/Lato-Black.ttf": "/testtask/static/media/Lato-Black.57dee8aface5572f9101.ttf",
+    "static/media/rocket.png": "/testtask/static/media/rocket.0650b533ac9b97d8a5d6.png",
+    "static/media/basket.svg": "/testtask/static/media/basket.e1811a5fa9787d73e48a.svg",
+    "index.html": "/testtask/index.html",
+    "main.1ccdf272.css.map": "/testtask/static/css/main.1ccdf272.css.map",
+    "main.45283adb.js.map": "/testtask/static/js/main.45283adb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ccdf272.css",
+    "static/js/main.45283adb.js"
+  ]
+}
